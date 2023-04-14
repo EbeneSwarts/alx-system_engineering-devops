@@ -1,2 +1,2 @@
 #!/bin/bash
-This repository is created for my ALX SE Devops project
+a script that switches the current user to the user betty
