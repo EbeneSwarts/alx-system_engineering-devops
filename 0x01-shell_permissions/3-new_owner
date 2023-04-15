@@ -1,2 +1,3 @@
 #!/bin/bash
-echo -e $(sudo chown betty hello)
+USERNAME= $(sudo chown betty hello)
+ echo -e $USERNAME | sed s/ *$//g
