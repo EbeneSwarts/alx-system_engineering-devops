@@ -1,4 +1,2 @@
-[master 3f288a3] Display last 10 lines
- 2 files changed, 2 insertions(+)
- mode change 100644 => 100755 0x02-shell_redirections/3-twofiles
- create mode 100755 0x02-shell_redirections/4-lastlines
+#!/bin/bash
+$(tail /etc/passwd)
