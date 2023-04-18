@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -lt 10 | head | less| sort
-
+ls -t | head -n 10
